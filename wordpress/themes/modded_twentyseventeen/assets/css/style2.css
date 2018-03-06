@@ -1,0 +1,55 @@
+
+.infoboxContainer {
+    z-index: 1000;
+    position: fixed;
+    width: 50%;
+    margin: 0 25% 0;
+    display: none;
+}
+
+.infobox {
+    display: flex;
+    text-align:center;
+    margin-bottom:0;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.30);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.infoboxIcon {
+    font-size: 3em;
+    align-self: center;
+}
+
+.infobox p {
+    margin-bottom: 0;
+    align-self: center;
+}
+
+.textwidget p a {
+    color: blue;
+}
+
+.infobox .close {
+    padding:0;
+}
+
+#btnContainer {
+    text-align:center;
+}
+
+.toggleBtn {
+    margin-top: 5px;
+}
+
+@media (max-width: 1024px) {
+    .infoboxContainer {
+        width: 80%;
+        margin: 0 10% 0;
+    }
+}
+
+navigation-top {
+    position: relative;
+}
