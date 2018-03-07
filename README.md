@@ -11,5 +11,3 @@ docker run --name wpmysql -e MYSQL_ROOT_PASSWORD="(password)" -v C:\Docker\WPMys
 docker run --name wordpress --link wpmysql:mysql -e WORDPRESS_DB_PASSWORD="(password)" -v C:\Docker\wordpress:/var/www/html/wp-content -p 8080:80 -d wordpress
 
 docker run --name myadmin -d --link wpmysql:db -e MYSQL_USERNAME="(password)" -e MYSQL_ROOT_PASSWORD="(password)" -p 8081:80 phpmyadmin/phpmyadmin
-
-indtil videre er der kun html kode og lidt wordpress PHP på siden, så den er ret rodet og grim at kigge på.
