@@ -1,1 +1,87 @@
 /*Theme Name: KGrejChainboxDemo*/
+
+
+.clearfix:before, .clearfix:after, .navbar-content>.navbar-nav>li>.navbar-nav:before, #pageContents.homepage .product-list:before, .modal-footer:before, .panel-body:before, .pager:before, .navbar-collapse:before, .navbar-header:before, .navbar:before, .nav:before, .btn-group-vertical>.btn-group:before, .btn-toolbar:before, .form-horizontal .form-group:before, .row:before, .container-fluid:before, .container:before, .dl-horizontal dd:before, .navbar-content>.navbar-nav>li>.navbar-nav:after, #pageContents.homepage .product-list:after, .modal-footer:after, .panel-body:after, .pager:after, .navbar-collapse:after, .navbar-header:after, .navbar:after, .nav:after, .btn-group-vertical>.btn-group:after, .btn-toolbar:after, .form-horizontal .form-group:after, .row:after, .container-fluid:after, .container:after, .dl-horizontal dd:after {
+    content: " ";
+    display: table;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f8f8f8;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333;
+    margin: 0;
+}
+
+#page-wrap {
+    max-width: 1100px;
+    margin: 10px auto 30px;
+}
+
+header .navbar-search {
+    clear: right;
+    width: 320px;
+}
+
+#search-query-field {
+    border-radius: 0;
+}
+
+ul.top-navigation {
+    margin-top: 5px;
+}
+
+ul.top-navigation>li {
+    float: left;
+}
+
+ul.top-navigation>li>a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #222;
+}
+
+.navbar {
+    border: 0;
+    margin: 0;
+}
+
+.navbar-default {
+    background-color: #069;
+    border-radius: 0;
+}
+
+.navbar-right {
+    margin: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #eee;
+}
+
+.navbar nav.navbar-content>ul>li>a {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.carousel-control svg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 60px;
+    line-height: 60px;
+    margin-top: -30px;
+    font-size: 2.5em;
+    text-align: center;
+}
+
