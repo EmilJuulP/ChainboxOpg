@@ -2,18 +2,18 @@
     <div class="shop-info">
         <address>
             <span>
-                <i class="fa fa-copyright"></i>
+                <i class="far fa-copyright"></i>
                 Chainbox ApS
             </span>
             <span>
-                <i class="fa fa-map-marker"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 Knabrostræde 1a, 2. sal 1210 København K
             </span>
             <span>                
-                <i class="fa fa-phone"></i>
+                <i class="fas fa-phone fa-flip-horizontal"></i>
                 +45 70 22 11 97</span>
             <span>
-                <i class="fa fa-legal"></i>
+                <i class="fas fa-gavel fa-flip-horizontal"></i>
                 <small>CVR:</small>
                  30 57 30 05
             </span>
@@ -25,7 +25,7 @@
     </div>
     <div class="mobile-site-selector visible-xs visible-sm">
         <a href="/en/" class="btn btn-xs btn-default">
-            <img src="images/en-flag.png" alt="flag" class="flag">
+            <img src="/wp-content/themes/KGrejChainboxDemo/images/en-flag.png" alt="flag" class="flag">
             <span class>English</span>
         </a>
     </div>

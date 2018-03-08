@@ -19,7 +19,7 @@
             <ul class="top-navigation pull-right list-unstyled">
                 <li class="dropdown open-right" id="login-dropdown-container">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        <i class="fa fa-sign-in fa-fw"></i>
+                        <i class="fas fa-sign-in-alt"></i>
                         <span class="hidden-sm hidden-xs">Sign in</span>
                         <b class="caret"></b>
                     </a>
@@ -94,7 +94,7 @@
             <i class="fa fa-reorder"></i>
         </a>
         <a class="visible-sm visible-xs logo-mobile" href="/da/">
-            <img src="/images/koekkengrej_logo_inverse.png" alt="logo">
+            <img src="/wp-content/themes/KGrejChainboxDemo/images/koekkengrej_logo_inverse.png" alt="logo">
         </a>
         <a class="visible-sm visible-xs mobile-btn-navbar pull-right" href="/da/checkout/" title="Indkøbskurv">
             <i class="fa fa-shopping-cart"></i>

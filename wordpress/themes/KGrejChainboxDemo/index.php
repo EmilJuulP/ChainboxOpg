@@ -45,11 +45,7 @@
                             <div class="col-sm-3 column">
                                 <div>
                                     <h5>
-                                        <span class="fa mceNonEditable">
-                                            <strong>
-                                                <span class="fa mceNonEditable"></span>
-                                            </strong>
-                                        </span>
+                                        <i class="far fa-credit-card"></i>
                                         <strong>&nbsp;Sikker betaling</strong>
                                     </h5>
                                     <p>
@@ -60,11 +56,7 @@
                             <div class="col-sm-3 column">
                                 <div>
                                     <h5>
-                                        <span class="fa mceNonEditable">
-                                            <span class="fa mceNonEditable">
-                                                <span class="fa mceNonEditable"></span>
-                                            </span>
-                                        </span>
+                                        <i class="fas fa-paper-plane"></i>
                                         <strong>&nbsp;Dag-til-dag levering</strong>
                                     </h5>
                                     <p>
@@ -76,7 +68,7 @@
                                 <div>
                                     <h5>
                                         <strong>
-                                            <span class="fa mceNonEditable">&nbsp;</span>
+                                            <i class="fab fa-facebook-square"></i>
                                             Følg os på facebook
                                         </strong>
                                     </h5>
@@ -89,10 +81,8 @@
                                 <div>
                                     <h5>
                                         <strong>
-                                            <span class="fa mceNonEditable">
-                                                <span class="fa mceNonEditable"></span>
-                                            </span>
-                                            &nbsp;Sikker betaling
+                                            <i class="fas fa-envelope"></i>
+                                            &nbsp;Nyhedsbrev
                                         </strong>
                                         <ins>
                                             <br>
