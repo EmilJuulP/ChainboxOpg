@@ -42,15 +42,22 @@
                 <div class="bg-muted">
                     <div class="container-fluid">
                         <div class="row clearfix">
-                            <div class="col-sm-3 column">
-                                <div>
-                                    <h5>
-                                        <i class="far fa-credit-card"></i>
-                                        <strong>&nbsp;Sikker betaling</strong>
-                                    </h5>
-                                    <p>
-                                        Vi benytter Quickpay/DIBS Payment Gateway til sikkert at håndtere kortbetaling, så du er garanteret at dine oplysninger behandles fortroligt.
-                                    </p>
+                            <?php 
+                            if ( have_posts() ) {
+                                while ( have_posts() ) {
+                                    the_post(); 
+                                    //
+                                    // Post Content here
+                                    //
+                                } // end while
+                            } // end if
+                            ?>
+                                    
+
+                           <!-- <div class="col-sm-3 column">
+                                <div class="widgetContainer">
+                                   
+                                    <?php dynamic_sidebar( 'payment_field' ); ?>
                                 </div>
                             </div>
                             <div class="col-sm-3 column">
@@ -73,7 +80,7 @@
                                         </strong>
                                     </h5>
                                     <p>
-                                        Vi uddeler jævnligt rabatkoder og spændende information omkring nye produkter, Bliv fan i dag!
+                                        Vi uddeler jævnligt rabatkoder og spændende information omkring nye produkter. Bliv fan i dag!
                                     </p>
                                 </div>
                             </div>
@@ -117,6 +124,7 @@
                                     </form>
                                 </div>
                             </div>
+-->
                         </div>
                     </div>
                 </div>

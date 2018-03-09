@@ -6,6 +6,11 @@
     display: table;
 }
 
+html {
+    margin: 0;
+}
+
+
 *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -52,6 +57,7 @@ ul.top-navigation>li>a {
 .navbar {
     border: 0;
     margin: 0;
+    min-height: 40px;
 }
 
 .navbar-default {
@@ -71,6 +77,8 @@ ul.top-navigation>li>a {
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #pageContents {
@@ -110,6 +118,14 @@ footer {
 
 .newsletter-form .form-group {
     margin-bottom: .2em;
+}
+
+.form-group input {
+    border-radius: 0;
+}
+
+.form-group button {
+    border-radius: 0;
 }
 
 footer .shop-info {
